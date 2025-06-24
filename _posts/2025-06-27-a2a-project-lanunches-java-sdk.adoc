@@ -1,0 +1,127 @@
+---
+layout: post
+title: 'A2A Project launches Java SDK'
+date: 2025-06-27
+tags: release
+synopsis: 'We’re thrilled to announce the launch of the A2A Java SDK, made possible by WildFly and Quarkus teams’ contribution.'
+author: maeste
+---
+
+== *A2A Project Launches Java SDK*
+
+The agent revolution just took a massive leap forward! Following the
+recent landmark https://developers.googleblog.com/en/google-cloud-donates-a2a-to-linux-foundation/[announcement that Google has donated the Agent2Agent
+(A2A) protocol to the Linux Foundation], we’re thrilled to announce the
+launch of the *A2A Java SDK,* made possible by WildFly and Quarkus 
+teams’ contribution.
+
+
+=== *A New Era Under Linux Foundation Stewardship*
+
+The A2A protocol’s transition to the Linux Foundation represents more
+than just a change of governance: it’s a commitment to vendor-neutral,
+community-driven innovation that ensures this critical interoperability
+standard remains open and accessible to all. With more than 100
+companies now supporting the protocol, we’re witnessing the formation of
+what industry leaders are calling "`an open, interoperable Internet of
+Agents.`"
+
+=== *Why Java SDK Matters*
+
+Here’s where things get exciting from a technical perspective: *true
+polyglot agent ecosystems*.
+
+The agent landscape has been fragmented, with Python dominating AI/ML
+workflows, JavaScript powering web-based agents, and Java serving as the
+backbone of enterprise backend systems. Each language ecosystem operated
+in isolation, creating invisible walls that limited the collaborative
+potential of multi-agent systems.
+
+Our Java SDK shatters these barriers by implementing the A2A protocol
+specification natively in Java, enabling:
+
+* *Enterprise-grade agent integration* with existing Java
+infrastructure +
+* *Seamless interoperability* between Java agents and those written in
+Python, JavaScript, or any A2A-compatible language +
+* *Production-ready deployments* leveraging Java’s mature ecosystem and
+well-tested enterprise capabilities
+
+Want to see this interoperability in action? Explore our
+https://github.com/a2aproject/a2a-samples/tree/main/samples/multi_language/python_and_java_multiagent[multi-language
+sample implementation&#44;] which demonstrates how Python and Java
+agents collaborate seamlessly.
+
+=== *Technical Excellence: The Mutiny-Zero Advantage*
+
+The Java SDK leverages *mutiny-zero* as its reactive foundation, a
+decision that reflects our commitment to framework-agnostic excellence.
+
+Mutiny Zero is a minimal API for creating reactive streams-compliant
+publishers that weighs less than 50K and have zero external dependencies
+beyond the Reactive Streams API. This architecture delivers several
+compelling advantages:
+
+* *Zero Vendor Lock-in*: No specific technology commitments for your
+agents. +
+* *Lightweight Performance*: Faster startups, reduced resource
+consumption. +
+* *Maximum Compatibility*: Seamless integration with existing Java
+reactive ecosystems. +
+* *Future-Proof Design*: Ready for Java’s modern Flow APIs, backward
+compatible.
+
+This reactive foundation ensures your Java agents can handle
+high-throughput, low-latency agent-to-agent communications while
+remaining lightweight and composable.
+
+=== *Community-Driven Innovation*
+
+The Java SDK represents a perfect example of open-source collaboration
+in action. Originally developed by our talented team, this
+implementation demonstrates the power of community-driven innovation.
+
+What started as an external contribution has now become an official part
+of the A2A project repository, showcasing how the ecosystem can rapidly
+evolve through diverse contributions. This is precisely the kind of
+collaborative development that will accelerate A2A adoption and
+innovation.
+
+Ready to dive in? Here’s your roadmap:
+
+[arabic]
+. *Explore the SDK*: Visit
+https://github.com/a2aproject/a2a-java[github.com/a2aproject/a2a-java]
+to examine the implementation +
+. *Study Real Examples*: Check out the
+https://github.com/a2aproject/a2a-samples/tree/main/samples/multi_language/python_and_java_multiagent[multi-language
+samples] to see interoperability in action +
+. *Join the Community*: Connect with fellow developers in the A2A
+ecosystem +
+. *Start Building*: Begin prototyping your first multi-language agent
+team
+
+=== *The Bigger Picture: Collaborative Intelligence*
+
+The A2A protocol aims to break down the silos that currently limit the
+potential of artificial intelligence by providing a common language for
+AI agents to discover each other’s capabilities, securely exchange
+information, and coordinate complex tasks.
+
+With Java now joining Python and JavaScript in the A2A ecosystem, we’re
+building towards a future where intelligence is truly collaborative,
+where the most sophisticated AI systems are assembled from specialized
+agents, each optimized for specific tasks but unified through
+standardized communication protocols.
+
+This Java SDK launch is just the beginning. The A2A project under Linux
+Foundation stewardship is positioned for rapid expansion, with
+additional language implementations, enhanced security features, and
+enterprise-grade tooling on the horizon.
+
+*Your contributions matter*. Whether you’re fixing bugs, adding
+features, creating examples, or building integrations — every commit
+helps build this collaborative future.
+
+The agent revolution is here, and with the A2A Java SDK, the entire Java
+ecosystem can participate. Let’s build something amazing together! 🚀
